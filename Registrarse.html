@@ -1,0 +1,54 @@
+<!doctype html> <!--de html-->
+<html lang="es"> <!--idioma del codigo en ingles-->
+<head>
+	<meta charset="UTF-8"><!--es de html5,la de HTML4 seria <meta http-equiv="Content-type" content="text/html;charset=UTF-8">-->
+    <TITLE>Registrarse</TITLE>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/styloGeneral.css">
+    <link rel="stylesheet" href="CSS/styloReg.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <!-- --Font Awesome ----->
+    <script src="font awesome/js/all.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+    <body>
+        <!----------------------HEADER------------------>
+        <header id="idheader">
+        </header>
+        <!----------------------FIN HEADER------------------>
+        <div class="formulario">
+            <form action="show_data.html" target="_blank">
+            <h3 class="title">Completa tus datos</h3>
+            <div class="text">
+                <input type="" id="firstname" name="firstname" placeholder="&nbsp;"  value=""><label for="{text}" class="label transparent">Usuario</label>
+                <input type="email" class="email" placeholder="&nbsp;" name="email" value=""><label for="{text}" class="label transparent">Email</label>
+                <input type="email" class="cemail" placeholder="&nbsp;" name="email-confirm" value=""><label for="{text}" class="label transparent">Confirmar E-mail</label>
+                <input type="password" class="contra" placeholder="&nbsp;" name="password" value=""><label for="{text}" class="label transparent">Contraseña</label>
+                <input type="password" class="ccontra" placeholder="&nbsp;" name="password-confirm" value=""><label for="{text}" class="label transparent">Confirmar Contraseña</label>
+                <input type="" class="input transparent undefined   " placeholder="&nbsp;" name="name" value=""><label for="{text}" class="label transparent">Nombre</label>
+                <input type="" class="ubicacion" placeholder="&nbsp;" name="ubicacion" value=""><label for="{text}" class="label transparent">Ubicacion</label>
+                <input type="date" name="birthdate" ><label for="{text}" class="date-picker-label ">Fecha de nacimiento</label>
+                <br>
+                <br>
+                <label for="comentarios">Comentarios:</label><br>
+                <textarea name="comentarios" rows="10" cols="30"></textarea><br><br>      
+                <input type="submit" value="Enviar">
+                <!--<p>Si usted hace click en el boton "Enviar", la informacion sera enviada a la pagina "show_data.html".</p>-->
+            </div>
+            </form>
+        </div>
+        <footer class="footer" id="idfooter">
+        </footer>
+         <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="JS/script.js"></script>
+    </body>
+</html>
