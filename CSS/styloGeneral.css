@@ -1,0 +1,240 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+/*--------------------------------HEADER-----------------------------------*/
+.header{
+    margin:0;
+    width: 100%;
+}
+
+#navegador{
+    background-color: #190441;
+}
+
+[class*="col-"] {
+    float: left;
+    padding:5px 0 15px 0 ;
+}
+
+header nav img{
+    width:60px; 
+    height:40px;
+    margin:0;
+}
+
+header nav h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.7rem;
+    color: #f4c095;
+    margin-left: 0.1rem;
+}
+
+.navbar-expand-md{
+    display: flex !important;
+    flex-basis: auto;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+/*------------------------------fin HEADER-----------------------------*/
+
+
+.footer {
+    text-align:center;
+    color: blanchedalmond;
+    background: #1c1c1c;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+    padding-top: 0.7rem ;
+    padding-bottom: 0.3rem;
+    font-size: 1rem;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer a img{
+    padding-top: 0.5rem;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-right:0.2rem ;
+}
+
+
+.Primera-fila{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.logo-columna {
+    box-sizing: border-box;
+   
+}
+
+.nombre-logo {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 0.5rem 0 ;
+    display: flex;
+    font-size: 1.7rem;
+}
+
+.Segunda-fila {
+    flex-direction: column;
+    margin: 4px 0 20px 0;
+    box-sizing: border-box
+}
+
+.derechos{
+    flex:24%;
+    text-align: left;
+    font-size: 0.6rem;
+}
+
+.redes-sociales {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+}
+
+.redes{
+    width: 20%;
+    margin: 0;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0;
+    flex-direction: row;
+}
+
+ul.logos-redes {
+    max-width: none;
+    width: 30%;
+    justify-content:center;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*para PC*/
+@media only screen and (min-width: 700px) {
+    .row{
+        flex-direction: row;
+    }
+    header nav h1{
+        font-family: 'Dancing Script', cursive;
+        font-size: 2.5rem;
+        color: #f4c095;
+        width: 70%;
+        text-align:left;
+    }
+    header nav img{
+        width:90px; 
+        height:60px;
+    }
+    
+    header nav ul li:hover{
+        color: #300f7e;
+    }
+
+    .button{
+        width:30%;
+    }
+    .button ul{
+        float: right;
+        padding-right: 1rem;
+    }
+    .button ul li {
+        display: inline;
+        border:0;
+        margin:0;
+        background-color: #333;
+        padding: 0.2rem;
+    }
+    .derechos{
+        font-size: 1rem;
+    }
+    [class*="col-"] {
+        padding-top:15px ;
+    }
+    .Primera-fila{
+        flex-direction: row;
+    }
+    .logo-columna{
+        flex:1%;
+        margin-right: 0.4rem;   
+    }
+    .nombre-logo{
+        flex:95%;
+    }
+    .derechos{
+        width: 100%;
+        font-size: 15px;
+    }    
+}
+
+/*para TABLET*/
+@media only screen and (min-width: 500px) and (max-width: 700px) {  
+    .header{
+        height:auto;
+    }
+    .row{
+        flex-direction: column;
+    } 
+    .button,h1{
+        text-align: center;
+        margin-top:0.5rem;
+    }
+    h1{
+        margin-bottom:0.8rem;
+    }
+    
+    .button ul li {
+        display: inline;
+        border:0;
+        margin:0;
+        padding: 0.1rem;
+        flex:50%;
+    }
+    .derechos{
+        font-size: 1rem;
+    }
+    [class*="col-"] {
+        padding-top:15px ; 
+    }   
+    .row::after {
+        display: table-row-group;
+    } 
+    .Primera-fila{
+        flex-direction: row;
+    }
+    .logo-columna{
+        flex:1%;
+        margin-right: 0.4rem;   
+    }
+    .nombre-logo{
+        flex:75%;
+    }
+    .derechos{
+        width: 100%;
+        font-size: 10px;
+    }
+
+}

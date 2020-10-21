@@ -1,0 +1,23 @@
+img{
+    margin:auto;
+    width: 50%;
+    height: 50%;
+
+}
+
+.descripcion{
+    text-align: center;
+    padding: 10px;
+    font-family: Arial;
+}
+
+#infofoto{
+    text-align: center;
+}
+
+h2{
+    margin: 1rem;
+    font-family: Arial;
+    font-size: 2rem;
+    text-align: center;
+}
