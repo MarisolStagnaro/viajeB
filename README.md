@@ -1,2 +1,2 @@
 # viajeB
-Pagina web de viajes
+Pagina web de viajes responsive
